@@ -45,14 +45,17 @@ Edit the security group of the RDS instance to only allow communication from the
 
 ###### The following Web page should be prompted
 
-![image](https://user-images.githubusercontent.com/52587103/75939188-7f5a2000-5e57-11ea-9bc6-0c62f0622472.png)
 
-![image](https://user-images.githubusercontent.com/52587103/75939192-841ed400-5e57-11ea-9dd1-faf0954d54af.png)
+![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png)
+
+![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
+
+
 
 ###### We need to write this Php file in our Web server instance. 
 ###### Copy the contents of this file
 
-![image](https://user-images.githubusercontent.com/52587103/75939201-8b45e200-5e57-11ea-94be-c70c6c08d0ce.png)
+![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)
 
 
 ###### SSH into the server
@@ -68,10 +71,13 @@ Edit the security group of the RDS instance to only allow communication from the
 ##### After you have done that, go back to the wordpress web page and click “Run the Installation”
 If everything was done correctly, this page should be prompted 
 
-![image](https://user-images.githubusercontent.com/52587103/75939249-a284cf80-5e57-11ea-90c1-8afeaa53f842.png)
+![image](https://user-images.githubusercontent.com/52587103/75941246-21303b80-5e5d-11ea-9327-55177fe4bc4c.png)
+
+
+
 
 ###### Enter in the details and click confirm
-![image](https://user-images.githubusercontent.com/52587103/75939259-a9abdd80-5e57-11ea-8165-d1bbda82e58f.png)
+![image](https://user-images.githubusercontent.com/52587103/75941255-255c5900-5e5d-11ea-8d02-47a6c37058d5.png)
 
 </br></br>
 ### Your WordPress site is ready! Hosted on an AWS EC2 instance and RDS instance
@@ -86,15 +92,7 @@ If everything was done correctly, this page should be prompted
 
 
 
-![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png)
 
-![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75941246-21303b80-5e5d-11ea-9327-55177fe4bc4c.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75941255-255c5900-5e5d-11ea-8d02-47a6c37058d5.png)
 
 
 
