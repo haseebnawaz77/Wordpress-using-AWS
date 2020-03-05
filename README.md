@@ -51,7 +51,7 @@ Configure the settings of the RDS system and launch it
 ###### The following Web page should be prompted
 
 
-![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br>
+![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br></br>
 
 ##### Enter the correct information 
 ###### * Database_Name = Initial database Name(RDS)
@@ -64,7 +64,7 @@ Configure the settings of the RDS system and launch it
 ###### We need to write this Php file in our Web server instance. 
 ###### Copy the contents of this file
 
-![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)
+![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)</br>
 
 
 ###### SSH into your Web Server(EC2 instance)
