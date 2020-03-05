@@ -16,7 +16,7 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 Configure the settings of the RDS system and launch it 
 
 ![image](https://user-images.githubusercontent.com/52587103/75939077-402bcf00-5e57-11ea-86ef-bcf9ee009521.png)
-</br>
+</br></br>
 
 ##### Caution - remember to give your database a name or it will NOT be created. 
 ###### We will need the name of the database and its password and also the user of the database and its password for future reference
@@ -34,7 +34,7 @@ Configure the settings of the RDS system and launch it
 
 
 
-
+_____________________________________________________________________________________________________
 
 
 ###### Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
