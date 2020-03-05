@@ -27,12 +27,14 @@ Configure the settings of the RDS system and launch it
 </br>
 
 ![image](https://user-images.githubusercontent.com/52587103/75941801-9e0fe500-5e5e-11ea-9338-d1c0e2771738.png)
-________________________________________________________________________________________________________________________________________
-________________________________________________________________________________________________________________________________________
 </br></br></br>
 
+________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
+
+
 ### Security Groups
-###### The security groups for the web server and RDS instance
+###### The security groups for the Web Server and RDS instance
 ![image](https://user-images.githubusercontent.com/52587103/75942036-5d649b80-5e5f-11ea-8fd3-aff8deca04db.png)
 
 
@@ -49,7 +51,7 @@ ________________________________________________________________________________
 ![image](https://user-images.githubusercontent.com/52587103/75942068-72d9c580-5e5f-11ea-91f5-8d142a54bf74.png)
 
 
-###### The following Web page should be prompted
+###### The following web page should be prompted
 
 
 ![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br></br>
@@ -62,7 +64,7 @@ ________________________________________________________________________________
 </br></br></br>
 
 
-###### We need to write this Php file in our Web server instance. 
+###### We need to write this php file in our Web server instance. 
 ###### Copy the contents of this file
 
 ![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)</br>
@@ -92,6 +94,8 @@ If everything was done correctly, this page should be prompted
 ![image](https://user-images.githubusercontent.com/52587103/75941255-255c5900-5e5d-11ea-8d02-47a6c37058d5.png)
 
 </br></br></br>
+________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
 ### Your WordPress site is ready! Hosted on an AWS EC2 instance and RDS instance
 ![image](https://user-images.githubusercontent.com/52587103/75942079-7a996a00-5e5f-11ea-85bb-37b63552d50e.png)
 
