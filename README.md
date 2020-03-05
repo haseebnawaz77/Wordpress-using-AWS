@@ -23,7 +23,8 @@ Configure the settings of the RDS system and launch it
 ![image](https://user-images.githubusercontent.com/52587103/75941189-052c9a00-5e5d-11ea-9b4e-ceafe5c3f2e8.png)
 
 </br>
-###### The database is now available
+The database is now available
+</br>
 ![image](https://user-images.githubusercontent.com/52587103/75939099-50dc4500-5e57-11ea-8414-2751fb2a316b.png)
 </br></br>
 
