@@ -1,7 +1,7 @@
 # Wordpress-using-AWS
 Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 
-</br></br></br>
+</br></br>
 ### EC2 Instance
 ###### Pass the bootstrap script from the resources in the "user data" section when configuring an instance
 ###### This will install HTTP, PHP, MySQL and WordPress on your server 
