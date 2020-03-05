@@ -7,7 +7,7 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 ![image](https://user-images.githubusercontent.com/52587103/75938983-12468a80-5e57-11ea-8aae-15358ad7a3d9.png)
 </br>
 ###### Allow port 80 and SSH from only your IP address for safer practice 
-<img src="https://user-images.githubusercontent.com/52587103/75939050-386c2a80-5e57-11ea-8d2a-346155145c98.png" width=400 height=300>
+<img src="https://user-images.githubusercontent.com/52587103/75939050-386c2a80-5e57-11ea-8d2a-346155145c98.png" width=1000 height=300>
 
 ![image](https://user-images.githubusercontent.com/52587103/75939066-3bffb180-5e57-11ea-886b-9ce933bbdf5e.png)
 
