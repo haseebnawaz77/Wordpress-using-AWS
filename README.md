@@ -29,7 +29,7 @@ Configure the settings of the RDS system and launch it
 </br></br>
 
 ### Security Groups
-The security groups for the web server and RDS instance
+###### The security groups for the web server and RDS instance
 ![image](https://user-images.githubusercontent.com/52587103/75942036-5d649b80-5e5f-11ea-8fd3-aff8deca04db.png)
 
 
@@ -37,7 +37,7 @@ The security groups for the web server and RDS instance
 
 
 
-Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
+###### Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
 ![image](https://user-images.githubusercontent.com/52587103/75942052-6bb2b780-5e5f-11ea-90e3-5121e7d462b6.png)
 
 </br></br>
@@ -51,10 +51,14 @@ Edit the security group of the RDS instance to only allow communication from the
 ###### The following Web page should be prompted
 
 
-![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png)
+![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br>
 
+###### Enter the correct information 
+* Database_Name = Initial database Name(RDS)
+* Database Host = The endpoint of your RDS instance, grab the endpoint and paste it here
 ![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
 
+</br></br>
 
 
 ###### We need to write this Php file in our Web server instance. 
@@ -63,8 +67,8 @@ Edit the security group of the RDS instance to only allow communication from the
 ![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)
 
 
-###### SSH into the server
-![image](https://user-images.githubusercontent.com/52587103/75939213-93058680-5e57-11ea-851c-a063b4669a58.png)
+###### SSH into your Web Server(EC2 instance)
+![image](https://user-images.githubusercontent.com/52587103/75939213-93058680-5e57-11ea-851c-a063b4669a58.png)</br>
 
 ###### Paste the following contents in this file and save it with the name “wp-config.php”
 
