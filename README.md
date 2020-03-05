@@ -1,7 +1,7 @@
 # Wordpress-using-AWS
 Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 
-</br></br>
+</br></br></br>
 ### EC2 Instance
 ###### Pass the bootstrap script in the resources in the "user data" section when configuring an instance
 ![image](https://user-images.githubusercontent.com/52587103/75938983-12468a80-5e57-11ea-8aae-15358ad7a3d9.png)
@@ -11,7 +11,7 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 
 ![image](https://user-images.githubusercontent.com/52587103/75942028-576eba80-5e5f-11ea-8c00-2e5ddf58a523.png)
 
-</br></br>
+</br></br></br>
 ### RDS Instance
 Configure the settings of the RDS system and launch it 
 
@@ -26,7 +26,7 @@ Configure the settings of the RDS system and launch it
 
 ![image](https://user-images.githubusercontent.com/52587103/75941801-9e0fe500-5e5e-11ea-9338-d1c0e2771738.png)
 
-</br></br>
+</br></br></br>
 
 ### Security Groups
 ###### The security groups for the web server and RDS instance
@@ -40,11 +40,11 @@ Configure the settings of the RDS system and launch it
 ###### Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
 ![image](https://user-images.githubusercontent.com/52587103/75942052-6bb2b780-5e5f-11ea-90e3-5121e7d462b6.png)
 
-</br></br>
+</br></br></br>
 
 ### Initializing
 
-###### Head over to your webserver EC2 instance and grab the DNS and enter it on ur browser
+###### Head over to your webserver EC2 instance and grab the DNS and enter it in ur browser
 ![image](https://user-images.githubusercontent.com/52587103/75942068-72d9c580-5e5f-11ea-91f5-8d142a54bf74.png)
 
 
@@ -54,11 +54,11 @@ Configure the settings of the RDS system and launch it
 ![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br>
 
 ###### Enter the correct information 
-* Database_Name = Initial database Name(RDS)
-* Database Host = The endpoint of your RDS instance, grab the endpoint and paste it here
+###### * Database_Name = Initial database Name(RDS)
+###### * Database Host = The endpoint of your RDS instance, grab the endpoint and paste it here
 ![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
 
-</br></br>
+</br></br></br>
 
 
 ###### We need to write this Php file in our Web server instance. 
@@ -74,7 +74,7 @@ Configure the settings of the RDS system and launch it
 
 ![image](https://user-images.githubusercontent.com/52587103/75939230-9ac52b00-5e57-11ea-9878-bf10fe11be95.png)
 
-</br></br>
+</br></br></br>
 ### Finishing off
 
 ##### After you have done that, go back to the wordpress web page and click “Run the Installation”
@@ -88,7 +88,7 @@ If everything was done correctly, this page should be prompted
 ###### Enter in the details and click confirm
 ![image](https://user-images.githubusercontent.com/52587103/75941255-255c5900-5e5d-11ea-8d02-47a6c37058d5.png)
 
-</br></br>
+</br></br></br>
 ### Your WordPress site is ready! Hosted on an AWS EC2 instance and RDS instance
 ![image](https://user-images.githubusercontent.com/52587103/75942079-7a996a00-5e5f-11ea-85bb-37b63552d50e.png)
 
