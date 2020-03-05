@@ -5,6 +5,7 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 ### EC2 Instance
 ###### Pass the bootstrap script in the resources in the "user data" section when configuring an instance
 ![image](https://user-images.githubusercontent.com/52587103/75938983-12468a80-5e57-11ea-8aae-15358ad7a3d9.png)
+</br>
 ###### Allow port 80 and SSH from only your IP address for safer practice 
 ![image](https://user-images.githubusercontent.com/52587103/75939050-386c2a80-5e57-11ea-8d2a-346155145c98.png)
 
@@ -15,19 +16,25 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 Configure the settings of the RDS system and launch it 
 
 ![image](https://user-images.githubusercontent.com/52587103/75939077-402bcf00-5e57-11ea-86ef-bcf9ee009521.png)
+</br>
+
 ##### Caution - remember to give your database a name or it will NOT be created. 
 ###### We will need the name of the database and its password and also the user of the database and its password for future reference
 ![image](https://user-images.githubusercontent.com/52587103/75940462-22606900-5e5b-11ea-8190-a626ac3ef6ad.png)
 
+</br>
 ###### The database is now available
 ![image](https://user-images.githubusercontent.com/52587103/75939099-50dc4500-5e57-11ea-8414-2751fb2a316b.png)
 </br></br>
 
 ### Security Groups
+The security groups for the web server and RDS instance
 ![image](https://user-images.githubusercontent.com/52587103/75939119-5afe4380-5e57-11ea-81c3-7ec46d1c5ed9.png)
 
 Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
 ![image](https://user-images.githubusercontent.com/52587103/75939135-62bde800-5e57-11ea-8744-ac243dfdcb54.png)
+</br>
+
 ![image](https://user-images.githubusercontent.com/52587103/75939146-6a7d8c80-5e57-11ea-9063-9bb86994d648.png)
 </br></br>
 
