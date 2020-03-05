@@ -53,9 +53,9 @@ Configure the settings of the RDS system and launch it
 
 ![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png) </br>
 
-###### Enter the correct information 
-###### * Database_Name = Initial database Name(RDS)
-###### * Database Host = The endpoint of your RDS instance, grab the endpoint and paste it here
+##### Enter the correct information 
+##### * Database_Name = Initial database Name(RDS)
+##### * Database Host = The endpoint of your RDS instance, grab the endpoint and paste it here
 ![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
 
 </br></br></br>
