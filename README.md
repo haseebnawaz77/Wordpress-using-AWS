@@ -23,9 +23,9 @@ Configure the settings of the RDS system and launch it
 ![image](https://user-images.githubusercontent.com/52587103/75941189-052c9a00-5e5d-11ea-9b4e-ceafe5c3f2e8.png)
 
 </br>
-###### The database is now available
 
 ![image](https://user-images.githubusercontent.com/52587103/75941801-9e0fe500-5e5e-11ea-9338-d1c0e2771738.png)
+
 </br></br>
 
 ### Security Groups
@@ -87,10 +87,6 @@ If everything was done correctly, this page should be prompted
 
 
 
-
-
-
-![image](https://user-images.githubusercontent.com/52587103/75941801-9e0fe500-5e5e-11ea-9338-d1c0e2771738.png)
 
 
 
