@@ -35,7 +35,7 @@ Configure the settings of the RDS system and launch it
 
 
 _____________________________________________________________________________________________________
-
+________________________________________________________________________________________________________________________________________
 
 ###### Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
 ![image](https://user-images.githubusercontent.com/52587103/75942052-6bb2b780-5e5f-11ea-90e3-5121e7d462b6.png)
