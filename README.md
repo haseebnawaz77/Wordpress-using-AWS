@@ -33,9 +33,7 @@ The security groups for the web server and RDS instance
 
 Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
 ![image](https://user-images.githubusercontent.com/52587103/75939135-62bde800-5e57-11ea-8744-ac243dfdcb54.png)
-</br>
 
-![image](https://user-images.githubusercontent.com/52587103/75939146-6a7d8c80-5e57-11ea-9063-9bb86994d648.png)
 </br></br>
 
 ### Initializing
