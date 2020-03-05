@@ -20,7 +20,7 @@ Configure the settings of the RDS system and launch it
 
 ##### Caution - remember to give your database a name or it will NOT be created. 
 ###### We will need the name of the database and its password and also the user of the database and its password for future reference
-![image](https://user-images.githubusercontent.com/52587103/75940462-22606900-5e5b-11ea-8190-a626ac3ef6ad.png)
+![image](https://user-images.githubusercontent.com/52587103/75941189-052c9a00-5e5d-11ea-9b4e-ceafe5c3f2e8.png)
 
 </br>
 ###### The database is now available
@@ -75,5 +75,26 @@ If everything was done correctly, this page should be prompted
 
 </br></br>
 ### Your WordPress site is ready! Hosted on an AWS EC2 instance and RDS instance
-![image](https://user-images.githubusercontent.com/52587103/75939270-b03a5500-5e57-11ea-9ebe-94e9a1b28645.png)
+![image](https://user-images.githubusercontent.com/52587103/75941266-2a210d00-5e5d-11ea-95d0-ac6ed2c58113.png)
  
+
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/52587103/75941219-12e21f80-5e5d-11ea-870f-49d283ea86ce.png)
+
+![image](https://user-images.githubusercontent.com/52587103/75941225-170e3d00-5e5d-11ea-8fde-98d60ce72eed.png)
+
+![image](https://user-images.githubusercontent.com/52587103/75941233-1b3a5a80-5e5d-11ea-8f50-4b7eb308ae15.png)
+
+![image](https://user-images.githubusercontent.com/52587103/75941246-21303b80-5e5d-11ea-9327-55177fe4bc4c.png)
+
+![image](https://user-images.githubusercontent.com/52587103/75941255-255c5900-5e5d-11ea-8d02-47a6c37058d5.png)
+
+
+
