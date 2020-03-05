@@ -7,9 +7,9 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 ![image](https://user-images.githubusercontent.com/52587103/75938983-12468a80-5e57-11ea-8aae-15358ad7a3d9.png)
 </br>
 ###### Allow port 80 and SSH from only your IP address for safer practice 
-<img src="https://user-images.githubusercontent.com/52587103/75939050-386c2a80-5e57-11ea-8d2a-346155145c98.png" width=1000 height=300>
+![image](https://user-images.githubusercontent.com/52587103/75942023-53429d00-5e5f-11ea-8291-7d4e15e5323b.png)
 
-![image](https://user-images.githubusercontent.com/52587103/75939066-3bffb180-5e57-11ea-886b-9ce933bbdf5e.png)
+![image](https://user-images.githubusercontent.com/52587103/75942028-576eba80-5e5f-11ea-8c00-2e5ddf58a523.png)
 
 </br></br>
 ### RDS Instance
@@ -30,17 +30,23 @@ Configure the settings of the RDS system and launch it
 
 ### Security Groups
 The security groups for the web server and RDS instance
-![image](https://user-images.githubusercontent.com/52587103/75939119-5afe4380-5e57-11ea-81c3-7ec46d1c5ed9.png)
+![image](https://user-images.githubusercontent.com/52587103/75942036-5d649b80-5e5f-11ea-8fd3-aff8deca04db.png)
+
+
+
+
+
 
 Edit the security group of the RDS instance to only allow communication from the webserver’s Security group on port 3306
-![image](https://user-images.githubusercontent.com/52587103/75939135-62bde800-5e57-11ea-8744-ac243dfdcb54.png)
+![image](https://user-images.githubusercontent.com/52587103/75942052-6bb2b780-5e5f-11ea-90e3-5121e7d462b6.png)
 
 </br></br>
 
 ### Initializing
 
 ###### Head over to your webserver EC2 instance and grab the DNS and enter it on ur browser
-![image](https://user-images.githubusercontent.com/52587103/75939172-7701e500-5e57-11ea-897a-7465a2e8fb30.png)
+![image](https://user-images.githubusercontent.com/52587103/75942068-72d9c580-5e5f-11ea-91f5-8d142a54bf74.png)
+
 
 ###### The following Web page should be prompted
 
@@ -80,27 +86,19 @@ If everything was done correctly, this page should be prompted
 
 </br></br>
 ### Your WordPress site is ready! Hosted on an AWS EC2 instance and RDS instance
-![image](https://user-images.githubusercontent.com/52587103/75941266-2a210d00-5e5d-11ea-95d0-ac6ed2c58113.png)
- 
-
-
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/52587103/75942023-53429d00-5e5f-11ea-8291-7d4e15e5323b.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75942028-576eba80-5e5f-11ea-8c00-2e5ddf58a523.png)
-
-
-![image](https://user-images.githubusercontent.com/52587103/75942036-5d649b80-5e5f-11ea-8fd3-aff8deca04db.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75942052-6bb2b780-5e5f-11ea-90e3-5121e7d462b6.png)
-
-![image](https://user-images.githubusercontent.com/52587103/75942068-72d9c580-5e5f-11ea-91f5-8d142a54bf74.png)
-
 ![image](https://user-images.githubusercontent.com/52587103/75942079-7a996a00-5e5f-11ea-85bb-37b63552d50e.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
