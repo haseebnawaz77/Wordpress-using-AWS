@@ -12,10 +12,11 @@ Hosting a Wordpress site using AWS Technology (RDS instance and EC2 instance)
 
 </br></br>
 ### RDS Instance
+Configure the settings of the RDS system and launch it 
 
 ![image](https://user-images.githubusercontent.com/52587103/75939077-402bcf00-5e57-11ea-86ef-bcf9ee009521.png)
 ##### Caution - remember to give your database a name or it will NOT be created. 
-###### We will need the name of the database and its password and also the user of the database and its password(all these will be configured in the RDS instance configuration settings when launching)
+###### We will need the name of the database and its password and also the user of the database and its password for future reference
 ![image](https://user-images.githubusercontent.com/52587103/75940462-22606900-5e5b-11ea-8190-a626ac3ef6ad.png)
 
 ###### The database is now available
